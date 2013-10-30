@@ -44,7 +44,7 @@ var init = function(Backbone) {
 	});
 }
 
-if(typeof(require) === 'function' && require.amd) {
+if(typeof(define) === 'function' && define.amd) {
 	define(['Backbone'],init);
 } else {
 	init(Backbone);
